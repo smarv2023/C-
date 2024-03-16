@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstConsoleApp", "MyFirstConsoleApp.csproj", "{D7D4CEFD-958D-4B41-9190-1E28AD69791B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardPickerUI", "CardPickerUI.csproj", "{F1718CAF-9334-4485-8453-56A772369BB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D7D4CEFD-958D-4B41-9190-1E28AD69791B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7D4CEFD-958D-4B41-9190-1E28AD69791B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7D4CEFD-958D-4B41-9190-1E28AD69791B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7D4CEFD-958D-4B41-9190-1E28AD69791B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1718CAF-9334-4485-8453-56A772369BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1718CAF-9334-4485-8453-56A772369BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1718CAF-9334-4485-8453-56A772369BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1718CAF-9334-4485-8453-56A772369BB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5C28D7CE-13A8-40BC-93A5-0FFBE97F95CD}
+		SolutionGuid = {2B7FCF94-5005-4D1D-B7F2-23B49024043A}
 	EndGlobalSection
 EndGlobal
