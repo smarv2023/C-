@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Guy
 {
-    internal class Guy
+    class Guy
     {
         public string Name;
         public int Cash;
