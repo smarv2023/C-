@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Birds
 {
-    internal class Bird
+    abstract class Bird
     {
         public static Random Randomizer = new Random();
         public virtual Egg[] LayEggs(int numberOfEggs)

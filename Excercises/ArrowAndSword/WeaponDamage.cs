@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ArrowAndSword
 {
-    internal class WeaponDamage
+    abstract class WeaponDamage
     {
         public WeaponDamage(int startingRoll)
         {
