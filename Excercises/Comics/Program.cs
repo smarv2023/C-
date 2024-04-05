@@ -13,9 +13,9 @@ internal class Program
         orderby -Comic.Prices[comic.Issue]
         select comic;
 
-        foreach (Comic comic in mostExpensive)
+        foreach (var i in mostExpensive)
         {
-            Console.WriteLine($"{comic} is worth {Comic.Prices[comic.Issue]:c}");
+            Console.WriteLine($"{i} is worth {Comic.Prices[i.Issue]:c}");
         }
     }
 }
