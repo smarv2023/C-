@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Comics
 {
-    class Comic
+    public class Comic
     {
         public string Name { get; set; }
         public int Issue { get; set; }
@@ -28,7 +28,7 @@ namespace Comics
         {
             { 6, 3600M },
             { 19, 500M },
-            { 36, 650M },
+            { 36, 350M },
             { 57, 13525M },
             { 68, 250M },
             { 74, 75M },
