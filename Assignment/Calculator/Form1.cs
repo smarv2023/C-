@@ -81,6 +81,7 @@ namespace Calculator
             lblOperator.Text = "o";
             calculate.Clear();
             activeTextBox = operand1;
+            calculate.Result = 0;
         }
 
         // Operators buttons
