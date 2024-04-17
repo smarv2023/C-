@@ -119,17 +119,18 @@ namespace Calculator
                 calculate.Equal(lblOperator.Text);
                 lblTotal.Text = calculate.Result.ToString();
             }
-            catch (FormatException)
+            catch (FormatException fE)
             {
-                MessageBox.Show("Invalid input. Please enter valid number");
+                MessageBox.Show(fE.Message);
             }
-            catch (DivideByZeroException)
+            catch (DivideByZeroException dE)
             {
-                MessageBox.Show("Cannot divide by zero.");
+                MessageBox.Show(dE.Message);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                //MessageBox.Show(ex.ToString());
+                MessageBox.Show(ex.Message);
             }
         }
 
