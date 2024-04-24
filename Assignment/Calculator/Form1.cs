@@ -119,9 +119,9 @@ namespace Calculator
                 calculate.Equal(lblOperator.Text);
                 lblTotal.Text = calculate.Result.ToString();
             }
-            catch (FormatException fE)
+            catch (FormatException)
             {
-                MessageBox.Show(fE.Message);
+                MessageBox.Show("Enter a number");
             }
             catch (DivideByZeroException dE)
             {
