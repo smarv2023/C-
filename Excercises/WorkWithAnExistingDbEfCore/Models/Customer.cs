@@ -7,5 +7,10 @@ public partial class Customer
     {
         get => $"{FirstName} {LastName}";
     }
+
+    public string Contact
+    {
+        get => $"Phone number: {Phone} Email:{Email}";
+    }
 }
 

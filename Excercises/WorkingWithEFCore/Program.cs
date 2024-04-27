@@ -14,15 +14,18 @@ Product veggieSpecial = new Product()
 context.Products.Add(veggieSpecial);
 */
 
-//var products = context.Products
-//    .Where(p => p.Price > 10.00M)
-//    .OrderBy(p => p.Name);
 
-//LINQ Syntax
+
+//LINQ Expression
+var products = context.Products
+    .Where(p => p.Price > 10.00M)
+    .OrderBy(p => p.Name);
+
+/*
 var products = from product in context.Products 
                where product.Price > 10.00M 
                orderby product.Name select product;
-
+*/
 foreach (Product p in products)
 {
     Console.WriteLine($"Id:     {p.Id}");

@@ -6,4 +6,6 @@ using WorkingWithEfcoreContext context = new WorkingWithEfcoreContext();
 foreach (Customer c in context.Customers)
 {
     Console.WriteLine($"Full Name: {c.FirstLast} ");
+
+    Console.WriteLine($"Contact: {c.Contact}");
 }
