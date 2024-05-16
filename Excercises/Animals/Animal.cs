@@ -23,12 +23,6 @@ namespace Animals
             }
         }
 
-        public Animal(string name, int age)
-        {
-            this.Name= name;
-            this.Age = age;
-        }
-
         public int Age
         {
             get { return _age; }
@@ -38,6 +32,14 @@ namespace Animals
                     _age = value;
             }
         }
+
+        // Constructor
+        public Animal(string name, int age)
+        {
+            this.Name= name;
+            this.Age = age;
+        }
+
 
         // Methods
         public abstract string MakeSound();

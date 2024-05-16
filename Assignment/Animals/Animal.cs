@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Animals
 {
-    internal abstract class Animal
+    internal abstract class Animal : object
     {
         // Encapsulate variables data
         private string? _name;
