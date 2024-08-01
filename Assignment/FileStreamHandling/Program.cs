@@ -1,4 +1,5 @@
 ﻿using FileStreamHandling;
+using System.Runtime.Serialization;
 
 static void SectionTitle(string title)
 {
@@ -43,9 +44,14 @@ try
     WriteLine("\nDelete File");
     Control.DeleteFile();
     ReadLine();
+
 }
 catch (UnauthorizedAccessException ex)
 { 
+    WriteLine(ex.Message);
+}
+catch (SerializationException ex)
+{
     WriteLine(ex.Message);
 }
 catch (Exception ex)

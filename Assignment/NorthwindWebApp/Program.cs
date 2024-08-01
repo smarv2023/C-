@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using Northwind.Data;
-using Northwind.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

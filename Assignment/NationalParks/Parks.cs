@@ -8,15 +8,15 @@ namespace NameParks
 {
     internal abstract class Parks : IPark
     {
-        private string name;
-        private string location;
-        public string Name 
+        private string? name;
+        private string? location;
+        public string? Name 
         { 
             get { return this.name; }
             set { this.name = value; } 
         }
 
-            public string Location
+            public string? Location
         {
             get { return this.location; }
             set { this.location = value; }
